@@ -10,10 +10,12 @@ header {
 .logo {
     background-color:#4aaaa5;
     color:white;
-    padding: 20px;
-    text-align: center;
+    padding: 18px;
+    text-align: bottom;
     margin: 0 400px 0 300px;
     display:inline;
+    border-bottom:#cccccc solid 2px;
+
 }
 
 .links {
@@ -40,8 +42,14 @@ header {
 .container {
     background-color:white;
     width:960px;
-    border: solid #cccccc 1.5px;
+    border: solid #dddddd 1.5px;
     margin: 20px 300px;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
 }
 
 .image {
@@ -52,5 +60,23 @@ header {
 p {
     margin: 0 20px 20px 20px;
     line-height:1.5;
+
 }
 
+.footer {
+    color:white;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    font-size:12px;
+    margin: -50px 0 0;
+    padding: 30px 0 10px 0;
+    text-align:center;
+    width: 100%;
+}
+
+body {
+    margin:0;
+    
+    background-image: url(email-pattern.png);
+    
+}
