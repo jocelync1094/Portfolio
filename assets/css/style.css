@@ -19,6 +19,9 @@ header {
 
 }
 
+.spacing {
+    margin: 0 20px 0;
+}
 .links {
     text-align:center;
     padding: 0 25px;
@@ -97,4 +100,20 @@ body {
     flex-direction:column;
     background-image: url(email-pattern.png);
     
+}
+
+.inquiry {
+    width: 90%;
+    height: 30px;
+    padding: 0 25px;
+    border: solid lightgray 0.5px;
+    margin: 10px 20px 10px;
+}
+
+.message {
+    width: 90%;
+    height: 130px;
+    padding: 0 25px;
+    border: solid lightgray 0.5px;
+    margin: 10px 20px 10px;
 }
