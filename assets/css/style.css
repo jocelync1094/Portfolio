@@ -57,6 +57,12 @@ header {
     
 }
 
+.icons {
+    width:40px;
+    height:40px;
+    font-size:36px;
+    text-align:bottom;
+}
 .container {
     background-color:white;
     width:960px;
