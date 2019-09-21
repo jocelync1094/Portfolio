@@ -1,10 +1,11 @@
+
+  
 header {
     background-color:#ffffff;
     border-bottom:#cccccc solid 2px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width:100%;
     margin: 0;
-    min-height: 60px;
     padding:0;
 }
 .logo {
@@ -29,6 +30,7 @@ header {
     margin: 22px 0 0;
     display:float;
     float:left;
+    text-decoration:none;
 }
 
 .links2 {
@@ -37,6 +39,7 @@ header {
     display:float;
     float:left;
     margin: 22px 0 0;
+    text-decoration:none;
 }
 
 .text{
@@ -60,6 +63,7 @@ header {
     border: solid #dddddd 1.5px;
     margin: 20px 300px;
     flex: 1 0 auto;
+    padding: 0 0 20px 0;
 }
 
 .clearfix::after {
@@ -68,11 +72,34 @@ header {
     clear:both;
 }
 
-.image {
+.image-of-me {
     margin: 0 20px;
     float:left;
-
+    position:relative;
 }
+
+.image {
+    
+    position:relative;
+    display:inline-block;
+    margin:20px;
+    
+}
+.project-name{
+    position:absolute;
+    width:225px;
+    bottom:20px;
+    left:0px;
+    z-index:10;
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    padding: 15px 0;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    margin: 0 20px 0 0;
+}
+
+
 p {
     margin: 0 20px 20px 20px;
     line-height:1.5;
